@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "genfar-inference"
+version = "0.1.0"
+description = "Inference pipeline for GenFAR 3D CNN checkpoints."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "GenFAR Team"}
+]
+dependencies = [
+  "click>=8.1",
+  "numpy==1.26.4",
+  "pandas==2.2.2",
+  "pyyaml>=6.0",
+  "nibabel>=5.2",
+  "torch==2.3.1+cu121",
+  "torchvision==0.18.1+cu121",
+  "torchaudio==2.3.1+cu121",
+  "tqdm>=4.66",
+  "matplotlib>=3.7",
+  "scikit-learn>=1.2",
+  "wandb>=0.15"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.1",
+  "black>=24.3",
+  "ruff>=0.5"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["genfar_inference"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.uv]
+extra-index-url = ["https://download.pytorch.org/whl/cu121"]
+index-strategy = "unsafe-best-match"

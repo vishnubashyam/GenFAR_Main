@@ -1,0 +1,51 @@
+# Test requirements file for CUDA 12.2
+# Generated from requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu121
+attrs==24.1.0
+black==24.8.0
+click==8.1.7
+contourpy==1.2.1
+cycler==0.12.1
+docker-pycreds==0.4.0
+fonttools==4.53.1
+gitdb==4.0.11
+gitpython==3.1.43
+idna==3.7
+iniconfig==2.0.0
+joblib==1.4.2
+kiwisolver==1.4.5
+matplotlib==3.9.1
+mypy-extensions==1.0.0
+nibabel==5.2.1
+numpy==1.26.4
+packaging==24.1
+pandas==2.2.2
+# pathtools>=0.1.2  # Incompatible with Python 3.12
+pathspec==0.12.1
+pillow==10.4.0
+platformdirs==4.3.6
+pluggy==1.5.0
+protobuf==4.25.4
+psutil==5.9.8
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+pyyaml==6.0.1
+requests==2.32.3
+ruff==0.5.7
+scikit-learn==1.5.1
+scipy==1.13.1
+sentry-sdk==1.45.0
+setproctitle==1.3.3
+shortuuid==1.0.13
+six==1.16.0
+smmap==5.0.1
+threadpoolctl==3.5.0
+torch==2.3.1+cu121
+torchaudio==2.3.1+cu121
+torchvision==0.18.1+cu121
+tqdm==4.66.4
+typing-extensions==4.12.2
+tzdata==2024.1
+urllib3==2.2.2
+wandb==0.17.4

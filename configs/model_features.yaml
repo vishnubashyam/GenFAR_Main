@@ -1,0 +1,38 @@
+defaults:
+  feature_key: mlp_512
+
+models:
+  best_model_Abeta_CSF:
+    feature_key: mlp_64
+  best_model_Age:
+    feature_key: mlp_512
+  best_model_APOE_genotype:
+    feature_key: mlp_64
+  best_model_BMI:
+    feature_key: mlp_64
+  best_model_BNT:
+    feature_key: mlp_64
+  best_model_CDR_Global:
+    feature_key: mlp_64
+  best_model_Depression:
+    feature_key: mlp_64
+  best_model_Diabetes:
+    feature_key: mlp_64
+  best_model_Diastole:
+    feature_key: mlp_512
+  best_model_Digit_Span_Forward:
+    feature_key: mlp_64
+  best_model_Education_Years:
+    feature_key: mlp_64
+  best_model_Fluid_Intelligence:
+    feature_key: mlp_64
+  best_model_Hyperlipidemia:
+    feature_key: mlp_512
+  best_model_MMSE:
+    feature_key: mlp_512
+  best_model_MOCA:
+    feature_key: mlp_512
+  best_model_Smoking:
+    feature_key: mlp_64
+  best_model_Tau_CSF:
+    feature_key: mlp_64
